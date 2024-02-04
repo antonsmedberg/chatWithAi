@@ -1,14 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import './styles/index.css'; // This is where you import Tailwind CSS
+import './styles/index.css';
 
+import { render } from 'react-dom'; // Import render from ReactDOM
 
-
-
-ReactDOM.render(
+render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/chatWithAi">
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
