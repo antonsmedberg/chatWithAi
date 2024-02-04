@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4">
+        <!-- Header -->
+        <header class="flex justify-between items-center py-4 bg-blue-900 text-white">
+            <div class="text-left">
+                <h1 class="text-xl font-bold">DeepSeek Coder</h1>
+                <p class="text-sm">Alpha</p>
+            </div>
+            <div class="text-right">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    DeepSeek Chat
+                </button>
+                <button class="ml-2 bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+                    DeepSeek Coder
+                </button>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="mt-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-bold mb-2">Generate Synthetic Datasets</h2>
+                <p class="text-gray-700 mb-4">
+                    This script will create a synthetic dataset with a structure similar to the one you would get from user interactions. The <code class="bg-gray-200 rounded px-1">ratings</code> array is filled with random integers between 1 and 5, representing the ratings given by users to movies. The <code class="bg-gray-200 rounded px-1">mask</code> array is used to simulate the fact that not all users have rated all movies. The unrated movies are represented by zeros in the <code class="bg-gray-200 rounded px-1">ratings</code> array.
+                </p>
+                <p class="text-gray-700 mb-4">
+                    The resulting <code class="bg-gray-200 rounded px-1">synthetic_ratings.csv</code> file can then be used to train your collaborative filtering model. Remember that synthetic data can be useful for testing and development purposes, but it may not capture the complexity and nuances of real-world user behavior.
+                </p>
+                <!-- Text area for code -->
+                <div class="bg-gray-800 text-white p-4 rounded-lg font-mono text-sm overflow-scroll">
+                    <p>import numpy as np</p>
+                    <p>import pandas as pd</p>
+                    <p># ... additional Python code ...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-8 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-gray-700 text-sm">
+                    <a href="#" class="hover:underline">Feedback / Report</a>
+                </div>
+                <div class="text-gray-700 text-sm">
+                    <a href="#" class="hover:underline">My Profile</a>
+                    <span>|</span>
+                    <a href="#" class="hover:underline">API Platform <span class="text-green-500">NEW</span></a>
+                </div>
+                <div class="text-gray-700 text-sm">
+                    <a href="#" class="hover:underline">User Agreement</a>
+                    <span>|</span>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
