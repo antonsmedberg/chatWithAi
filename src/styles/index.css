@@ -1,0 +1,34 @@
+/* Import Tailwind CSS styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for your components */
+
+/* Header styles */
+header {
+  background-color: #3498db; /* Example background color */
+  color: white; /* Example text color */
+  padding: 1rem; /* Example padding */
+}
+
+h1 {
+  font-size: 2rem; /* Example font size for heading */
+}
+
+/* MainContent styles */
+main {
+  background-color: #f0f0f0; /* Example background color */
+  padding: 2rem; /* Example padding */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 1rem; /* Example padding */
+}
+
+/* Additional custom styles */
+/* You can add any additional custom styles here */
+
