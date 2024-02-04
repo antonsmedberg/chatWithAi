@@ -3,7 +3,6 @@
 
 # Ignore build or output directories
 
-/dist
 
 # Ignore environment files (if applicable)
 .env
