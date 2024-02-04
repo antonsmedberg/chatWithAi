@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/chatWithAi/static/css/main.31d6cfe0.css",
-    "main.js": "/chatWithAi/static/js/main.57705bef.js",
+    "main.css": "/chatWithAi/static/css/main.6164c9bf.css",
+    "main.js": "/chatWithAi/static/js/main.c06e14f4.js",
     "index.html": "/chatWithAi/index.html",
-    "main.57705bef.js.map": "/chatWithAi/static/js/main.57705bef.js.map"
+    "main.6164c9bf.css.map": "/chatWithAi/static/css/main.6164c9bf.css.map",
+    "main.c06e14f4.js.map": "/chatWithAi/static/js/main.c06e14f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.57705bef.js"
+    "static/css/main.6164c9bf.css",
+    "static/js/main.c06e14f4.js"
   ]
 }
