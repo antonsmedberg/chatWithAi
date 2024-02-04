@@ -1,0 +1,5 @@
+For Deployment on GitHub Pages:
+
+    Build and Deploy:
+        When you run yarn build or npm run build, CRA will compile your application into a build directory. This directory becomes the root of your website.
+        The contents of this build directory should be deployed to your GitHub Pages site. If you use the gh-pages package (yarn deploy), it handles this process for you.
