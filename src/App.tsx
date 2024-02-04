@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 bg-gray-50">
+    <div className="bg-gray-50">
       <Header />
       <MainContent />
       <Footer />
@@ -15,3 +15,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
